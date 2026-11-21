@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- STEP: write a title and description for THIS page -->
+  <title>My HTML Experience</title>
+  <meta name="description" content="My journey from scratch">
+</head>
+<body>
+
+  <!-- HEADER: this block must be the SAME on every page (only the h1 text changes) -->
+  <header>
+    <h1>Share Feedback</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="experience.html">What I Learned</a> |
+      <a href="contact.html">Share Feedback</a>
+    </nav>
+  </header>
+  <hr>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <section>
+      <h2>Tell Me What You Think</h2>
+      <!-- Use your question from Part G of your Content Planner -->
+      <p>Have you built a website before? Fill in this form to share your advice or feedback with me.</p>
+
+      <form action="#" method="post">
+
+        <!-- FIELD 1: Name (finished for you - study it).
+             "required" means the browser will not let the form be sent empty. -->
+        <p>
+          <label for="name">Your Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <!-- FIELD 2: Email. Fill the blanks.
+             Hint: type="email" gives you free email checking.
+             The label's "for" and the input's "id" must be the same word. -->
+        <p>
+          <label for="email">Your Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <!-- FIELD 3: A big text box for advice or feedback.
+             Hint: it is NOT an input tag. It uses <textarea> ... </textarea>
+             and it needs a closing tag. rows="5" makes it 5 lines tall. -->
+        <p>
+          <label for="advice">Your Advice for Me:</label><br>
+          <textarea id="advice" name="advice" rows="5" required></textarea>
+        </p>
+
+        <!-- BUTTON: what type of button sends a form? -->
+      <p>
+          <button type="submit">Send Feedback</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- FOOTER: copy this onto every page -->
+  <footer>
+    <p>Made by Tammzy Splendour &copy; 2026</p>
+  </footer>
+
+</body>
+</html>
